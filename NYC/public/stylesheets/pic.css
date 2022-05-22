@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+h1{
+    color: black;
+    font-weight: bolder;
+    box-sizing: border-box;
+    font-size: 35px;
+}
+button {
+   height: 80px; 
+  width: 120px;
+  background-color: rebeccapurple;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+
+ body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: flex;
+   flex-direction: column;  
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  background-image: url("https://media.istockphoto.com/photos/new-york-city-skyline-midtown-and-empire-state-building-picture-id479643782?k=20&m=479643782&s=612x612&w=0&h=piue3XQ536cgqyKNIjppyfaqMu_1f7nseX_jenYylLw=");
+} 
+
+.title {
+  margin: 10px 0 0;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+.container img {
+  object-fit: cover;
+  margin: 10px;
+  height: 300px;
+  width: 300px;
+  max-width: 100%;
+}
+
+.logo img {
+    margin: auto;
+    height: 250px;
+    width: auto;
+    padding: 30px;
+  }
+
+
+  /**/
+  /**/
+  /**/
+  /**/
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* body {
+    background-color: #2c3e50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+  } */
+  
+  .kinetic {
+    position: relative;
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+  }
+  
+  .kinetic::after,
+  .kinetic::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom-color: whitesmoke;
+    animation: rotateA 2s linear infinite 0.5s;
+  }
+  
+  .kinetic::before {
+    transform: rotate(90deg);
+    animation: rotateB 2s linear infinite;
+  }
+  
+  @keyframes rotateA {
+    0%,
+    25% {
+      transform: rotate(0deg);
+    }
+  
+    50%,
+    75% {
+      transform: rotate(180deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes rotateB {
+    0%,
+    25% {
+      transform: rotate(90deg);
+    }
+  
+    50%,
+    75% {
+      transform: rotate(270deg);
+    }
+  
+    100% {
+      transform: rotate(450deg);
+    }
+  }

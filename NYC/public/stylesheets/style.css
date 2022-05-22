@@ -1,0 +1,183 @@
+.logo {
+  float: none;
+  text-align: left;
+  margin: 0 auto;
+}
+.logo img {
+  margin: auto;
+  height: 125px;
+  width: auto;
+}
+nav li {
+  width: 100%;
+  display: inline;
+  padding: 100px;
+  margin: 100px;
+  background-color: white;
+  position: absolute;
+}
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #005877; 
+  text-align: center;
+  background-image: url(https://media.istockphoto.com/photos/lower-manhattan-skyline-picture-id502846306?k=20&m=502846306&s=612x612&w=0&h=q1snpJljEVewZqY2moikQGQ_9ldTO0FRCzJQ8ao491c=);
+}
+
+h1{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  margin: 20px;
+}
+button{
+  color:black;
+  padding: 10px;
+  align-items: left;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #005877; 
+}
+
+ul {
+  list-style: none;
+}
+ul li {
+  margin-bottom: 20px;
+  box-shadow: 0 3px 7px #00577759;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 5px;
+  transition: 0.2s ease;
+   left: 0%; 
+   font-size: 1em;
+  text-align: center;
+  position: relative; 
+  background-color: white;
+}  
+
+ul li:hover {
+  left: 5px;
+  text-align: center;
+}
+
+sub {
+  /* font-weight: bold; */
+  /* color: rgb(138, 138, 138); */
+  opacity: 0.7;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+  /* width: 360px; */
+  margin-bottom: 15px;
+  transition: 0.2s ease;
+  text-align: center;
+  align-items: center;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0px 2px 5px white;
+}
+
+input[type='submit'] {
+  background-color:  #535e9e;
+  color: white;
+  height: 30px;
+}
+
+/**/
+/**/
+/**/
+/**/
+
+* {
+  box-sizing: border-box;
+}
+/* body {
+  background-color: darksalmon;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+} */
+
+/* div {
+  position: absolute;
+  bottom: 20px;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  font-size: 18px;
+} */
+
+input {
+  width: 50px;
+  padding: 5px;
+  font-size: 20px;
+  background-color: darksalmon;
+  border: none;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+label{
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+/**/
+/**/
+/**/
+/**/
+
+/* body {
+  background-color: #8e44ad;
+  color: #fff;
+  font-family: 'Roboto Mono', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+} */
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 50px;
+  font-weight: bolder;
+  color: white;
+} 
+
+.counter {
+  font-size: 60px;
+  margin-top: 10px;
+}
+
+@media (max-width: 580px) {
+  body {
+    flex-direction: column;
+  }
+}
+
